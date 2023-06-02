@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="container">
+      <h1>Welcome to my portfolio!</h1>
+      <p>Hi, I'm SAI NIVED, a web developer.</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am a passionate web developer with experience in HTML, CSS, and JavaScript. I love creating beautiful and responsive websites.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="project">
+        <h3>Enhancing Road Safety</h3>
+        <p>A Radio-Frequency Based Speed Control System for Accident-Prone Areas .
+            Created an innovative speed control system that utilizes RF technology by placing a transmitter in accident-prone
+            areas and a receiver in vehicles, successfully reducing traffic accidents in school, hospital, and curved zones.</p>
+      <img src="https://i0.wp.com/nenow.in/wp-content/uploads/2018/02/roadsafety.jpg?fit=380%2C250&ssl=1">
+      </div>
+      <div class="project">
+        <h3>Handwriting recognition</h3>
+        <p>Developed a handwriting recognition system utilizing the pytesseract library, which integrates optical character recognition (OCR) capabilities. Utilized image pre-processing techniques to enhance the quality of input images for better recognition accuracy. Implemented pytesseract's functionalities and fine-tuned parameters to achieve efficient and accurate conversion of handwritten text into digital format.</p>
+      <IMG src="https://b2633864.smushcdn.com/2633864/wp-content/uploads/2020/08/ocr_handwriting_reco_result01.jpg?lossy=1&strip=1&webp=1">
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <div class="button">
+            <input type="submit" value="Send Message">
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy;made with ❤ by SAI NIVED</p>
+  </footer>
+</body>
+</html>
